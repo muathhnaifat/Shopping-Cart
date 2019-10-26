@@ -1,0 +1,64 @@
+body {
+  width: 960px;
+  margin: 10px auto;
+}
+
+/* HEADER */
+body > header {
+  height: 50px;
+  line-height: 50px;
+  background: rgb(162, 221, 255);
+  color: #2c540d;
+
+}
+body > header h1 {
+  float: left;
+  overflow: auto;
+  margin-top: 0px;
+
+}
+ul li {
+  float: right;
+  padding: 0 40px;
+  overflow: auto;
+}
+
+/* MAIN */
+main {
+  height: 100%;
+    clear: both;
+    background: rgba(109, 253, 0, 0.42);
+    color: #3e7594;
+}
+.col-1 h1 {
+  text-align: center;
+  padding: 30px;
+}
+.copy ol {
+  text-align: center;
+  padding: 30px;
+}
+.col-2 {
+  border: 2px solid #a2ddff;
+  text-align: center;
+  height: 800px;
+  margin-top: 40px;
+}
+
+/* FOOTER */
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 960px;
+  height: 50px;
+  background: rgb(162, 221, 255);
+}
+p{
+
+  text-align: center;
+  padding-top: 10px; ;
+}
+
+title{
+  color: brown;
+}
